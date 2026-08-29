@@ -1,0 +1,14 @@
+{
+  "name": "ORBITAL — Music Beyond Limits",
+  "short_name": "ORBITAL",
+  "description": "A music visualizer that turns your library into an explorable universe.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#02030A",
+  "theme_color": "#02030A",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
