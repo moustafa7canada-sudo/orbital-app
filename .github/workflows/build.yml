@@ -2,7 +2,6 @@ name: Build ORBITAL APK
 
 on: [push, workflow_dispatch]
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,11 +15,10 @@ jobs:
           node-version: 20
 
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
-          cache: gradle
 
       - name: Init npm project
         run: npm init -y
